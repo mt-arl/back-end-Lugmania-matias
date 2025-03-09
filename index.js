@@ -16,3 +16,8 @@ app.use(express.json());
 // Rutas
 app.use('/api/users2', userRoutes2);
 
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servitor corridor en el puerto ${PORT}`);
+});
+
