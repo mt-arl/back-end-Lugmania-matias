@@ -1,0 +1,12 @@
+# Ignorar la carpeta .vercel que genera Vercel localmente
+
+# Ignorar dependencias
+/node_modules/
+
+# Ignorar archivos de bloqueo de dependencias
+/package-lock.json
+/yarn.lock
+
+# Ignorar configuraciones de entorno
+/.env
+
